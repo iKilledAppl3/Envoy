@@ -8,7 +8,6 @@
 #import <UIKit/UIKit.h>
 
 //Declarations
-
 BOOL hideActive;
 BOOL hideFav;
 BOOL hideLabels;
@@ -125,7 +124,7 @@ else {
 	}
 }
 %end
-
+//hide labels methods (w.i.p work in progress).
 %hook MNThreadSectionHeaderViewCell 
 -(id)viewModel	{
 	if (hideLabels == YES) {
@@ -236,7 +235,7 @@ else {
   
 
 	if (prefs)
-	  
+	  //our preference values that write to a plist file when a user selects somethings
 	hideFav = ([prefs objectForKey:@"hideFav"] ? [[prefs objectForKey:@"hideFav"] boolValue] : hideFav);
 	hideActive = ([prefs objectForKey:@"hideActive"] ? [[prefs objectForKey:@"hideActive"] boolValue] : hideActive);
 	hideLabels = ([prefs objectForKey:@"hideLabels"] ? [[prefs objectForKey:@"hideLabels"] boolValue] : hideLabels);
