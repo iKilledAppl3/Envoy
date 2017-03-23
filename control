@@ -1,0 +1,9 @@
+Package: com.ikilledappl3.envoy
+Name: Envoy
+Depends: ws.hbang.common, mobilesubstrate
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Enhance your FB Messenger!
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Section: Tweaks

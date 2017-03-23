@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>height</key>
+			<string>125</string>
+			<key>icon</key>
+			<string>EnvoyBanner</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Features</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.ikilledappl3.envoy-changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.envoy</string>
+			<key>key</key>
+			<string>hideActive</string>
+			<key>label</key>
+			<string>Disable Active Now</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.ikilledappl3.envoy-changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.envoy</string>
+			<key>key</key>
+			<string>hideFav</string>
+			<key>label</key>
+			<string>Disable Favorites</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.ikilledappl3.envoy-changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ikilledappl3.envoy</string>
+			<key>key</key>
+			<string>hideLabels</string>
+			<key>label</key>
+			<string>Hide Section Labels</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tap here for support or just to follow :).</string>
+			<key>label</key>
+			<string>Support</string>
+		</dict>
+		<dict>
+			<key>big</key>
+			<string>56</string>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Follow @iKilledAppl3</string>
+			<key>user</key>
+			<string>iKilledAppl3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please consider donating it helps a lot!</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>paypal</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>icon</key>
+			<string>paypal</string>
+			<key>label</key>
+			<string>Donate via PayPal</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring is needed to apply changes.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>icon</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Messenger Tweaks by Me</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>messengerTweak1</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>NoPushMNFixer</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>messengerTweak2</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>NoInviteFBMessenger</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Messenger Tweaks to Check Out</string>
+			<key>footerText</key>
+			<string>Envoy is a Copyright 2016 of iKilledAppl3.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>messengerTweak3</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Messenger+</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Envoy</string>
+</dict>
+</plist>

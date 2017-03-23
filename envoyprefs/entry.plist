@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = EnvoyPrefs;
+		cell = PSLinkCell;
+		detail = "EnvoyPrefsListController";
+		icon = "Envoy.png";
+		isController = 1;
+		label = Envoy;
+	};
+}
