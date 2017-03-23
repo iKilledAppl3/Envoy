@@ -1,15 +1,26 @@
 # Envoy  - Enhance your FB Messenger! 
-![envoy logo]()
+![envoy logo](https://github.com/iKilledAppl3/Envoy/blob/master/envoyprefs/Resources/Envoy%403x.png?raw=true)
 Meet Envoy a tweak made for Facebook Messenger users in mind!
 This tweak will permanently hide those "great features" -_- Facebook added in the new Messenger update.
 
-You can hide the active now and favorites from your inbox view!
+#Prerequisites 
+
+You'll need to know what Objective - C is and what Logos/Substrate hooking is!
+You'll need to have theos installed along with libcephei or this will not compile!
+
+
+# FAQs
+Can I fork this and add code or learn from this so I can make my own tweaks?
+YES!  but If you fork this you must respect all orginal code and you are NOT permitted to steal the code and make something new out of it!
+
 
 
 # Screenshot 
 
-Below you'll find a screenshot.
 ![screenshout](http://moreinfo.thebigboss.org/moreinfo/envoy1.jpg)
+
+
+#  ---------------------------------------------------------------------------
 
 # Licensed under the GNU General Public License.
 
@@ -18,7 +29,7 @@ Below you'll find a screenshot.
 # LICENSE 
 
 The license gives permissions of the strong copyleft license and are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
-If you fork this you must respeact all orginal code and you are NOT permitted to steal the code and make something new out of it!
+
 
        GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
