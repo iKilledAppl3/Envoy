@@ -12,8 +12,6 @@
 BOOL hideActive;
 BOOL hideFav;
 BOOL hideLabels;
-//BOOL hideCamera;
-//BOOL hideMontage;
 
 //prefs plist file
 #define plist @"/var/mobile/Library/Preferences/com.ikilledappl3.envoy.plist"
